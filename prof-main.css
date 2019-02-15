@@ -23,7 +23,7 @@ body{
 }
 
 .nav{
-  height: 70px;
+  height: 74px;
 }
 
 ul{
@@ -34,7 +34,7 @@ ul{
 }
 
 li{
-  margin-top: 20px;
+  margin-top: 23px;
   font-family: 'Major Mono Display', monospace;
   display: inline-block;
 
@@ -52,4 +52,20 @@ li a:hover{
   transition: 500ms;
   background: rgba(255, 255, 255, 0.4);
   color: #fff;
+}
+
+#main-info{
+  background: rgba(0, 0, 0, 0.8);
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+}
+
+#name{
+  padding: 20px;
+}
+
+#prfpic{
+  width: 250px;
+  margin: 50px;
 }
