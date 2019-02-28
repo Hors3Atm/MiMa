@@ -1,36 +1,65 @@
 <html>
 	<head>
 		<title> Millenial-Market </title>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="./styles/main.css">
+		<link rel="stylesheet" href="./styles/content_switch.css">
+		<script src="scripts/switch.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-   		<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+		   
+		<link rel="stylesheet" href="./styles/wd-main.css">
+		<link rel="stylesheet" href="./styles/prof-main.css">
 	</head>
 	<body background="exp bg.png">
-		<div class="wrapper">
-			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="categories.html">Categories</a></li>
-				<li><a href="contact.html">Contact us</a></li>
-				<li><a href="wutdis.html">What is this</a></li>
-				<li><a href="profile.html">My profile</a></li>
+		<div id="wrapper">
+			<ul id="nav">
+				<li><span onclick="switch_con(0)">Home</span></li>
+				<li><span onclick="switch_con(1)">Categories</span></li>
+				<li><span onclick="switch_con(2)">Contact us</span></li>
+				<li><span onclick="switch_con(3)">What is this</span></li>
+				<li><span onclick="switch_con(4)">My profile</span></li>
 			</ul>
 		</div>
+		<div class="outer_con">
+			<div class="con" id="con0">
+				Main page content placeholder
+			</div>
+			<div class="con dont_show" id="con1">
+				Categories content placeholder
+			</div>
+			<div class="con dont_show" id="con2">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			</div>
+			<div class="con dont_show" id="con3">
+			<div class="infobox">
+			  <div class="name"> Millenial Market </div>
+			  <div class="desc"> {A project made from sheer curiosity and for a school grade} </div>
+			  <br>
+			  <br>
+			  <div class="thx"> special thanks to Levente who gave me the idea for this abomination </div>
+			</div>
+			</br>
+			<div class="sources">
+			  <div id="texty">
+			   Fonts used:
+				<ul id="fonts">
+				  <li><a href="https://fonts.google.com/specimen/Cedarville+Cursive">Cedarville Cursive</a> - "special thanks" font</li>
+				  <li><a href="https://fonts.google.com/specimen/Major+Mono+Display">Major Mono Display</a> - the font which is used on the "Millenial Market" sign</li>
+				  <li><a href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a> - the pixely font</li>
+				  <li><a href="https://fonts.google.com/specimen/Kosugi+Maru">Kosugi Maru</a> - the font this list is written with</li>
+				  <li><a href="*"></a></li></ul></div></div>
+			</div>
+			<div class="con dont_show" id="con4">
+				<div id="main-info">
+					<img src="profpic.png" style="height: 250px; width: 250px; margin: 50px; float: left; clear: left">
+					<div id="info">
+						Username:
+						<br><br>
+						MiMa ID:
+					</div>
+			</div>
+		</div>
 	</body>
 </html>
