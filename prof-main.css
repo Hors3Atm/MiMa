@@ -59,13 +59,16 @@ li a:hover{
   margin-left: 150px;
   margin-right: 150px;
   padding: 30px;
+  height: 1000px;
 }
 
-#name{
-  padding: 20px;
+#info{
+  padding: 40px;
+  text-align: left;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+  float: left;
 }
 
-#prfpic{
-  width: 250px;
-  margin: 50px;
-}
+
