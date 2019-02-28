@@ -1,0 +1,60 @@
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;  
+  background: url(./../exp_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+#wrapper{
+  text-align: center;
+}
+
+#nav{
+  height: 74px;
+}
+
+#wrapper ul{
+  margin: 20px auto;
+  width: 1100px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.1 );
+}
+
+#wrapper li{
+  margin-top: 23px;
+  padding: 0;
+  font-family: 'Major Mono Display', monospace;
+  display: inline-block;
+
+}
+
+#wrapper li span{
+  margin: 0;
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  transition: 500ms;
+  padding: 25px;
+}
+
+#wrapper li span:hover{
+  transition: 500ms;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
+
