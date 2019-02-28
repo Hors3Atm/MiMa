@@ -1,0 +1,54 @@
+.infobox{
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.name{
+  font-family: 'Major Mono Display', monospace;
+  color: rgba(255, 255, 255, 1);
+  font-size: 70px;
+}
+
+.desc{
+  font-family: 'Press Start 2P', cursive;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+
+.thx{
+  font-family: 'Cedarville Cursive', cursive;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
+
+/* the part with the sources listed */
+
+.sources{
+  background: rgba(0, 0, 0, 0.8);
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+
+}
+
+#texty{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 20px;
+}
+
+#texty ul{
+  font-family: 'Kosugi Maru', sans-serif;
+  list-style: none;
+  font-size: 25px;
+}
+
+#texty li{
+  margin: 20px;
+
+}
+
+/* sources listing closed */

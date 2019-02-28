@@ -1,0 +1,18 @@
+#main-info{
+  background: rgba(0, 0, 0, 0.8);
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+  height: 1000px;
+}
+
+#info{
+  padding: 40px;
+  text-align: left;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+  float: left;
+}
+
+
