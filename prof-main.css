@@ -63,6 +63,7 @@ li a:hover{
 }
 
 #info{
+  background: rgba(255, 255, 255, 0.1);
   padding: 40px;
   text-align: left;
   font-family: 'Kosugi Maru', sans-serif;
@@ -70,5 +71,3 @@ li a:hover{
   font-size: 28px;
   float: left;
 }
-
-
