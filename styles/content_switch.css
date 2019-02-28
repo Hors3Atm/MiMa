@@ -1,0 +1,16 @@
+div.con {
+    width: auto;
+    height: auto;
+}
+
+div.outer_con {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+div.dont_show
+{
+    display: none;
+}
