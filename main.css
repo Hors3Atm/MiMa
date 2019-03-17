@@ -17,11 +17,59 @@ body{
   display: table;
 }
 
-.wrapper{
+#searchbar{
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 74px;
+  width: 170px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #fff;
+  font-family: "Kosugi Maru", sans-serif;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1 );
+  padding: 10px 20px 10px 10px;
+}
+
+#searchbtn{
+  float: left;
+  clear: left;
+  width: 74px;
+  height: 74px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background: url("searchicon.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1 );
+  background-position: 16px 16px;
+  border: none;
+  transition: 250ms;
+}
+
+#searchbtn:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#logo{
+  float: right;
+  background: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-image: url(mima_rev1.0.png);
+  background-size: 200px auto;
+  background-position: center;
+  margin-right: 10px;
+  margin-top: 4px;
+  height: 74px;
+  width: 244px;
+}
+
+#wrapper{
   text-align: center;
 }
 
-.nav{
+#nav{
   height: 74px;
 }
 
@@ -60,6 +108,7 @@ li a:hover{
   border: none;
   font-family: 'Major Mono Display', monospace;
   padding: 23px;
+  transition: 250ms;
 }
 
 #dropper{
