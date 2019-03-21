@@ -8,24 +8,39 @@
     <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
 	</head>
 	<body background="exp bg.png">
-		<div id="wrapper">
+		<form>
+			<button type="submit" id="searchbtn"></button>
+		  <input type="text" name="search" placeholder="Search..." id="searchbar">
+	  	</form>
+		<a href="index.html">
+			<div id="logo">
+			</div>
+		</a>
+    <div id="wrapper">
 			<ul id="nav">
-				<li><a href="index.html">Home</a></li>
+				<li><div id="dropper">
+						<button id="dropdown">Home</button>
+							<div id="dropcont">
+								<a href="https://www.youtube.com/watch?v=8GW6sLrK40k">Resonance</a>
+								<a href="index.html">Homepage</a>
+							</div>
+					</div>
+        </li>
 				<li><a href="categories.html">Categories</a></li>
 				<li><a href="contact.html">Contact us</a></li>
 				<li><a href="wutdis.html">What is this</a></li>
 				<li><a href="profile.html">My profile</a></li>
 			</ul>
 		</div>
-    <div class="infobox">
-      <div class="name"> Millenial Market </div>
-      <div class="desc"> {A project made from sheer curiosity and for a school grade} </div>
+    <div id="infobox">
+      <div id="name"> Millenial Market </div>
+      <div id="desc"> {A project made from sheer curiosity and for a school grade} </div>
       <br>
       <br>
-      <div class="thx"> special thanks to Levente who gave me the idea for this abomination </div>
+      <div id="thx"> special thanks to Levente who gave me the idea for this abomination </div>
     </div>
     </br>
-    <div class="sources">
+    <div id="sources">
       <div id="texty">
        Fonts used:
         <ul id="fonts">

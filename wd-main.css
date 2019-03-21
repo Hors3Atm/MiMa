@@ -17,6 +17,56 @@ body{
   background-size: cover;
   display: table;
 }
+
+#searchbar{
+  float: left;
+  margin-top: 20px;
+  margin-right: 0.6%;
+  height: 74px;
+  width: 9.675%;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #fff;
+  font-family: "Kosugi Maru", sans-serif;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1 );
+  padding: 10px 20px 10px 10px;
+}
+
+#searchbtn{
+  float: left;
+  clear: left;
+  width: 3.225%;
+  height: 74px;
+  margin-top: 20px;
+  margin-left: 0.6%;
+  background: url("searchicon.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1 );
+  background-position: 6px 16px;
+  border: none;
+  transition: 250ms;
+}
+
+#searchbtn:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#logo{
+  float: right;
+  clear: right;
+  background: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-image: url(mima_rev1.0.png);
+  background-size: 200px auto;
+  background-position: center;
+  margin-right: 0.6%;
+  margin-top: 4px;
+  height: 74px;
+  width: 12.9%;
+}
+
     /* this is the part with the upper navbar */
 #wrapper{
   text-align: center;
@@ -56,7 +106,7 @@ body{
 
 /* until this part */
 
-.infobox{
+#infobox{
   text-align: center;
   padding: 30px;
   background: rgba(0, 0, 0, 0.8);
@@ -64,19 +114,19 @@ body{
   margin-right: 150px;
 }
 
-.name{
+#name{
   font-family: 'Major Mono Display', monospace;
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
 }
 
-.desc{
+#desc{
   font-family: 'Press Start 2P', cursive;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
 }
 
-.thx{
+#thx{
   font-family: 'Cedarville Cursive', cursive;
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
@@ -84,7 +134,7 @@ body{
 
 /* the part with the sources listed */
 
-.sources{
+#sources{
   background: rgba(0, 0, 0, 0.8);
   margin-left: 150px;
   margin-right: 150px;

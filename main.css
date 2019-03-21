@@ -43,7 +43,7 @@ body{
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 0.1 );
-  background-position: 8px 16px;
+  background-position: 6px 16px;
   border: none;
   transition: 250ms;
 }
@@ -85,7 +85,6 @@ li{
   margin-top: 0px;
   font-family: 'Major Mono Display', monospace;
   display: inline-block;
-
 }
 
 li a{
