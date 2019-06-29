@@ -68,40 +68,79 @@ body{
 }
 
     /* this is the part with the upper navbar */
+
 #wrapper{
   text-align: center;
 }
 
 #nav{
   height: 74px;
-}
-
-#wrapper ul{
-  margin: 20px auto;
-  width: 1100px;
-  list style: none;
+  margin: 1.25% auto;
+  width: 70%;
+  list-style: none;
   background: rgba(255, 255, 255, 0.1 );
 }
 
-#wrapper li{
-  margin-top: 23px;
+.up{
+  margin-top: 0px;
   font-family: 'Major Mono Display', monospace;
   display: inline-block;
-
 }
 
-#wrapper li a{
+.up a{
   text-decoration: none;
   color: #fff;
   font-size: 24px;
-  transition: 500ms;
+  transition: 250ms;
   padding: 25px;
 }
 
-#wrapper li a:hover{
-  transition: 500ms;
+.up a:hover{
+  transition: 250ms;
   background: rgba(255, 255, 255, 0.4);
   color: #fff;
+}
+
+#dropdown{
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  font-family: 'Major Mono Display', monospace;
+  padding: 23px;
+  transition: 250ms;
+}
+
+#dropper{
+  position: relative;
+  display: inline-block;
+}
+
+#dropcont{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min width: 100px;
+  z-index: 1;
+}
+
+#dropcont a{
+  color: #fff;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropcont a:hover{
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#dropper:hover #dropcont{
+  display: block;
+}
+
+#dropper:hover #dropdown{
+  background: rgba(255, 255, 255, 0.4);
 }
 
 /* until this part */

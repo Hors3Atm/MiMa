@@ -11,7 +11,7 @@ body{
   padding: 0;
   width: 100%;
   height: 100vh;
-  background: url(exp bg.png);
+  background-image: url(exp bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: table;
